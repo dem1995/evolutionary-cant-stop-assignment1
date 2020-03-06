@@ -20,5 +20,5 @@ Agents are created using a context free grammar as specified in `Script.py` and 
 
 Additionally, at each epoch of the algorithm, the population members' performances are compared to some provided baseline script.
 
-## Additional Agent Evaluation - `report-experiments.py`
+## Additional Agent Evaluation - `additional-experiments.py`
   Compares the results of the agents in the `scripts-independent` folder. These include some scripts taken from a previous run of agent evolution, as well as a random agent and a hand-crafted agent
