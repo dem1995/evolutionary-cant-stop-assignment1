@@ -2,7 +2,7 @@
 ## Introduction
 This repository contains code for generating artificial intelligence agents for the game "Can't Stop". "Can't Stop" is a game created by Sid Sackson in 1980 [[1](https://en.wikipedia.org/wiki/Can%27t_Stop_(board_game))]; at the time of writing, a version of the game can be played at [Board Game Arena](https://en.boardgamearena.com/gamepanel?game=cantstop).
 
-This was a project for the Fall 2020 Explainable AI Course taught at the University of Alberta by Dr. Levis.
+This was a project for the Winter 2020 Explainable AI Course taught at the University of Alberta by Dr. Levis.
 
 ## Agent Creation - `Script.py` and `DSL.py`
 Agents are created using a context free grammar as specified in `Script.py` and `DSL.py`. The CFG generates if-clauses that check for conditions on the "Can't Stop" board to determine what actions to take next. The possible actions themselves are specified by <DSL.py>, and call actions in `game.py`, which hosts the game itself. 
