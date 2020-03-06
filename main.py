@@ -61,7 +61,7 @@ def evolve_algorithm(popsize=25, numepochs=1, elitecount=7, childrencount=13, to
 	#Iterate the population, observing their performances and culling weaker members, 
 	# as well as generating offspring at each iteration and allowing invaders to enter 
 	# the population
-	for epoch in range(numepochs):
+	for epoch in range(1, numepochs+1):
 		print(f"Epoch {epoch}/{numepochs}")
 
 		#Clear cache
@@ -138,7 +138,7 @@ def evolve_algorithm(popsize=25, numepochs=1, elitecount=7, childrencount=13, to
 	return elites
 
 if __name__ == '__main__':
-	numepochs = 1
+	numepochs = 2
 	scripts = evolve_algorithm(numepochs = numepochs, testplayer = HandcraftedPlayer())
 
 	#Clear cache

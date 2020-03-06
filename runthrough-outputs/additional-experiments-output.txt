@@ -1,0 +1,39 @@
+First-Epoch Player vs Random Player
+Average results for 2500 games each of First-Epoch Player moving first and Random Player moving first       
+First-Epoch Player winrate: 0.3042. Random Player winrate: 0.6958
+Average results for 5000 games of First-Epoch Player moving first against Random Player
+First-Epoch Player winrate: 0.3332. Random Player winrate: 0.6668000000000001
+Average results for 5000 games of Random Player moving first against First-Epoch Player
+First-Epoch Player winrate: 0.29259999999999997. Random Player winrate: 0.7074
+-------------------------------------
+Evolved Player vs Random Player
+Average results for 2500 games each of Evolved Player moving first and Random Player moving first
+Evolved Player winrate: 0.9218. Random Player winrate: 0.07820000000000002
+Average results for 5000 games of Evolved Player moving first against Random Player
+Evolved Player winrate: 0.9536. Random Player winrate: 0.0464
+Average results for 5000 games of Random Player moving first against Evolved Player
+Evolved Player winrate: 0.8844. Random Player winrate: 0.1156
+-------------------------------------
+Handcrafted Player vs Random Player
+Average results for 2500 games each of Handcrafted Player moving first and Random Player moving first       
+Handcrafted Player winrate: 0.9176. Random Player winrate: 0.0824
+Average results for 5000 games of Handcrafted Player moving first against Random Player
+Handcrafted Player winrate: 0.9524. Random Player winrate: 0.047599999999999976
+Average results for 5000 games of Random Player moving first against Handcrafted Player
+Handcrafted Player winrate: 0.8702. Random Player winrate: 0.1298
+-------------------------------------
+Evolved Player vs First-Epoch Player
+Average results for 2500 games each of Evolved Player moving first and First-Epoch Player moving first      
+Evolved Player winrate: 0.8654. First-Epoch Player winrate: 0.1346
+Average results for 5000 games of Evolved Player moving first against First-Epoch Player
+Evolved Player winrate: 0.9152. First-Epoch Player winrate: 0.08479999999999999
+Average results for 5000 games of First-Epoch Player moving first against Evolved Player
+Evolved Player winrate: 0.8148. First-Epoch Player winrate: 0.1852
+-------------------------------------
+Handcrafted Player vs Evolved Player
+Average results for 2500 games each of Handcrafted Player moving first and Evolved Player moving first      
+Handcrafted Player winrate: 0.468. Evolved Player winrate: 0.532
+Average results for 5000 games of Handcrafted Player moving first against Evolved Player
+Handcrafted Player winrate: 0.6362. Evolved Player winrate: 0.3638
+Average results for 5000 games of Evolved Player moving first against Handcrafted Player
+Handcrafted Player winrate: 0.3244. Evolved Player winrate: 0.6756
