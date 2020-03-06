@@ -10,13 +10,13 @@ Agents are created using a context free grammar as specified in `<Script.py>` an
 ## Agent Evolution - <main.py>
   Algorithm to evolutionarily produce a script to play the board game "Can't Stop". It gives the top surviving agents after a number of evolutionary iterations as described as follows.
   
-	0) Randomly generates scripts to compose the population until the population has reached its maximum size
-	1) If we are not in the first epoch, we generate random "invader" scripts to fill the gap in the population left by the previous round until it has reached its maximum size
-	2) The population of scripts undergoes a round-robin tournament (specified in `<tournament.py>`, and some number of the scripts "survives"; these are referred to as the elites of this round
-	3) Random samples (retaken each tourney) of the population (including the non-elites) participate in tourneys (comparing scores from the earlier round-robin tournament to cut down on runtime) to decide two members to breed
-	3a) The victors of each tourney "breed" a child; specifically, they do so by crossing over their rules to produce two children, one of which is chosen for consideration and the other discarded (both have equal probability of being chosen)
-	3b) The chosen child from 3a, with a user-specified probability, undergoes a mutation to change up its rules
-	4) The elites and children enter the next round as the population prior to invasion if we have not reached the last epoch. Otherwise, the elites are returned by the program.
+0) Randomly generates scripts to compose the population until the population has reached its maximum size
+1) If we are not in the first epoch, we generate random "invader" scripts to fill the gap in the population left by the previous round until it has reached its maximum size
+2) The population of scripts undergoes a round-robin tournament (specified in `<tournament.py>`, and some number of the scripts "survives"; these are referred to as the elites of this round
+3) Random samples (retaken each tourney) of the population (including the non-elites) participate in tourneys (comparing scores from the earlier round-robin tournament to cut down on runtime) to decide two members to breed
+3a) The victors of each tourney "breed" a child; specifically, they do so by crossing over their rules to produce two children, one of which is chosen for consideration and the other discarded (both have equal probability of being chosen)
+3b) The chosen child from 3a, with a user-specified probability, undergoes a mutation to change up its rules
+4) The elites and children enter the next round as the population prior to invasion if we have not reached the last epoch. Otherwise, the elites are returned by the program.
 
 Additionally, at each epoch of the algorithm, the population members' performances are compared to some provided baseline script.
 
